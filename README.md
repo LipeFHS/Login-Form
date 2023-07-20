@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Formulário de login intuitivo e funcional para permitir que os usuários acessem uma aplicação ou site de forma segura e conveniente
 
-- [Acesse o projeto finalizado, online](#)
+- [Em andamento](https://lipefhs.github.io/Login-Form/)
 
 ## 🔖 Layout
 
