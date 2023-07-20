@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-blue-50: #00d4ff;
+    --color-blue-100: #090979;
+    --color-blue-200: #020024;
+
+    --color-gradient: linear-gradient(45deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: var(--color-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form {
+    background-color: var(--color-light-50);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,.336);
+    height: fit-content;
+}
+#form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form-header h1 {
+    font-size: 40px;
+    position: relative;
+}
+
+
+#social-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social-media img {
+    width: 35px;
+}
+
+#social-media img:hover {
+    transform: scale(1.2);
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: var(--color-dark-50);
+}
+
+.input-box label {
+    font-size: 14px;
+    color: var(--color-dark-50);
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-blue-50);
+}
+
+.input-field i {
+    font-size: 18px;
+    color: var(--color-dark-900);
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#forgot-password {
+    text-align: center;
+}
+
+#forgot-password a {
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--color-dark-50);
+}
+
+#forgot-password a:hover {
+    color: var(--color-blue-50);
+}
+
+#register, #register a {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--color-dark-50);
+}
+
+#register a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--color-dark-100);
+}
+
+#register a:hover {
+    color: var(--color-blue-50);
+}
+
+#login-button {
+    border: none;
+    background: var(--color-gradient);
+    color: var(--color-light-50);
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    transform: scale(1.05);
+}
