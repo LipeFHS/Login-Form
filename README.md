@@ -23,7 +23,7 @@ O foco deste projeto é criar um formulário de login intuitivo e funcional para
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto esta sendo desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
 - JavaScript
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Formulário de login intuitivo e funcional para permitir que os usuários acessem uma aplicação ou site de forma segura e conveniente
+Formulário de login intuitivo e funcional para permitir que os usuários acessem uma aplicação ou site de forma segura e conveniente.
 
 - [Em andamento](https://lipefhs.github.io/Login-Form/)
 
