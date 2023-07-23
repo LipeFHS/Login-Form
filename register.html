@@ -4,92 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/register.css">
+    <link rel="stylesheet" href="/assets/css/register.css">
 </head>
 <body>
-
-    <div class="form">
-        <form action="#">
-            <div class="form-header">
-                <h1>Register</h1>
-            </div>
-
-            <div class="login-button">
-                <button><a href="index.html">Login</a> </button>
-            </div>
-
-            <div id="inputs">
-                <div class="input-box">
-                    <label for="firstname">First Name</label>
-                    <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required></div>
+    <main id="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Register</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="index.html">Login</a></button>
+                    </div>
                 </div>
-            </div>
-
-            <div id="inputs">
-                <div class="input-box">
-                    <label for="lastname">Last name</label>
-                    <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required></div>
-                </div>
-            </div>
-
-            <div id="inputs">
-                <div class="input-box">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email" required></div>
-                </div>
-            </div>
-
-            <div id="inputs">
-                <div class="input-box">
-                    <label for="number"> Phone Number </label>
-                    <input type="tel" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" required>
-                </div>
-            </div>
-
-            <div id="inputs">
-                <div class="input-box">
-                    <label for="password">
-                        Password
-                        <input type="password" name="password" id="password" placeholder="Enter your password" required></div>
-                    </label>
-                </div>
-            </div>
-
-            <div class="gender">
-                <div class="gender-title">
-                    <h4>Gender</h1>
-                </div>
-
-                <div class="gender-types">
-                    <div class="gender-input">
-                        <input type="radio" name="gender" id="male">
-                        <label for="male">Male</label>
+                <div class="inputs">
+                    <div class="input-box">
+                        <label for="firstname">
+                            First Name
+                            <div class="input-field">
+                                <input type="text" name="firstname" id="firstname" placeholder="Enter your first name">
+                            </div>
+                        </label>
                     </div>
 
-                    <div class="gender-input">
-                        <input type="radio" name="gender" id="female">
-                        <label for="female">Female</label>
+                    <div class="input-box">
+                        <label for="lastname">
+                            Last Name
+                            <div class="input-field">
+                                <input type="text" name="lastname" id="lasstname" placeholder="Enter your lasst name">
+                            </div>
+                        </label>
                     </div>
 
-                    <div class="gender-input">
-                        <input type="radio" name="gender" id="other">
-                        <label for="others">Others</label>
+                    <div class="input-box">
+                        <label for="email">
+                            E-mail
+                            <div class="input-field">
+                                <input type="email" name="email" id="email" placeholder="user@email.com">
+                            </div>
+                        </label>
                     </div>
 
-                    <div class="gender-input">
-                        <input type="radio" name="gender" id="none">
-                        <label for="none">Prefer not to say</label>
+                    <div class="input-box">
+                        <label for="phone">
+                            Phone Number
+                            <div class="input-field">
+                                <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx)">
+                            </div>
+                        </label>
                     </div>
+
+                    <div class="input-box">
+                        <label for="password">
+                            Password
+                            <div class="input-field">
+                                <input type="password" name="password" id="password" placeholder="Enter your password">
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmPassword">
+                            Password
+                            <div class="input-field">
+                                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Enter your password again">
+                            </div>
+                        </label>
+                    </div>
+
+                </div>
+
+
+                <div class="gender">
+                    <div class="gender-title">
+                        <h4>Gender</h1>
+                    </div>
+
+                    <div class="gender-types">
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="other">
+                            <label for="others">Others</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="none">
+                            <label for="none">Prefer not to say</label>
+                        </div>
+                    </div>
+                    
                 </div>
                 
-            </div>
-            
-            <div class="register-button">
-                <button><a href="#">Register</a></button>
-            </div>
+                <div id="register-button">
+                    <button><a href="#">Register</a></button>
+                </div>
 
-        </form>
-    </div>
+            </form>
+        </div>
+    </main>
 
 </body>
 </html>
