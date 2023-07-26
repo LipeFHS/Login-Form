@@ -194,6 +194,23 @@
     transform: scale(1.05);
 }
 
+.input-box i {
+    display: none;
+}
+  
+.input-box small {
+    display: hidden;
+}
+
+.input-field.success {
+    border-bottom: 1px solid green;
+}
+  
+.input-field.error {
+    border-bottom: 1px solid red;
+}
+
+
 @media screen and (max-width: 1064px) {
     .container {
         width: 90%;
@@ -220,3 +237,4 @@
         margin-top: 0.5rem;
     }
 }
+
