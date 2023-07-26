@@ -233,7 +233,7 @@
     }
 
     .form {
-            width: auto;
+        width: auto;
     }
     
     .inputs {
@@ -243,6 +243,10 @@
         max-height: 10rem;
         overflow-y: scroll;
         flex-wrap: nowrap;
+    }
+
+    .gender-types {
+        display: inline-block;
     }
     .gender-inputs {
         margin-top: 2rem;
