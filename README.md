@@ -18,7 +18,7 @@ O foco deste projeto é criar um formulário de login intuitivo e funcional para
 <br>
 
 <p align="center">
-  <img alt="projeto Formulario de Login" src=".github/preview.jpg" width="100%">
+  <img alt="projeto Formulario de Login" src=".github/preview 2.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
