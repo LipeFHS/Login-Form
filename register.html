@@ -9,7 +9,7 @@
 <body>
     <main id="container">
         <div class="form">
-            <form action="#">
+            <form id="form">
                 <div class="form-header">
                     <div class="title">
                         <h1>Register</h1>
@@ -24,6 +24,9 @@
                             First Name
                             <div class="input-field">
                                 <input type="text" name="firstname" id="firstname" placeholder="Enter your first name">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Error message</small>
                             </div>
                         </label>
                     </div>
@@ -32,7 +35,10 @@
                         <label for="lastname">
                             Last Name
                             <div class="input-field">
-                                <input type="text" name="lastname" id="lasstname" placeholder="Enter your lasst name">
+                                <input type="text" name="lastname" id="lasstname" placeholder="Enter your last name">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Error message</small>
                             </div>
                         </label>
                     </div>
@@ -42,6 +48,9 @@
                             E-mail
                             <div class="input-field">
                                 <input type="email" name="email" id="email" placeholder="user@email.com">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Error message</small>
                             </div>
                         </label>
                     </div>
@@ -50,7 +59,10 @@
                         <label for="phone">
                             Phone Number
                             <div class="input-field">
-                                <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx)">
+                                <input type="tel" name="phone" id="phone" placeholder="(xx) xxxx-xxxx">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Error message</small>
                             </div>
                         </label>
                     </div>
@@ -60,6 +72,9 @@
                             Password
                             <div class="input-field">
                                 <input type="password" name="password" id="password" placeholder="Enter your password">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Error message</small>
                             </div>
                         </label>
                     </div>
@@ -69,6 +84,9 @@
                             Password
                             <div class="input-field">
                                 <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Enter your password again">
+                                <i class="fas fa-exclamation-circle"></i>
+                                <i class="fas fa-check-circle"></i>
+                                <small>Error message</small>
                             </div>
                         </label>
                     </div>
@@ -112,6 +130,14 @@
             </form>
         </div>
     </main>
+
+    <script
+    src="https://kit.fontawesome.com/f9e19193d6.js"
+    crossorigin="anonymous"
+    ></script>
+
+  <script src="assets/js/script.js"></script>
+
 
 </body>
 </html>
