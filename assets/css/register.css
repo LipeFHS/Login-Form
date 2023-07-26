@@ -226,8 +226,7 @@
     border-bottom: 1px solid red;
 }
 
-
-@media screen and (max-width: 1064px) {
+@media (max-width: 1064px) {
     .container {
         width: 90%;
         height: auto;
